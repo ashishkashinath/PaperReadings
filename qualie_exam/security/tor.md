@@ -1,10 +1,10 @@
-#Tor : The Second Genration Onion Router
+# Tor : The Second Genration Onion Router
 
 ## Terms 
 
 Perfect forward secrecy, Congestion Control, Directory Servers, Integrity Checking, Configurable Exit Policies.
 
-###High-level ideas
+### High-level ideas
 
 Works on the real-world internet, requiring no special privileges or kernel modifications.
 
@@ -51,14 +51,14 @@ Tunneling through multiple relays -- no single p[arty can correlate the whole th
 Batch, reorder and transmit at a later point in time.
 
 
-###User base requirement
+### User base requirement
 Anonymity loves company -- unless there is large userbase, there is no anonymity.
 
 Shared public system rather than a private system. UIUC legal investigating companies giving fake UIUC diplomas.
 
 Minimize probability that happends over time
 
-###Message Passing
+### Message Passing
 
 Give each relays a public key: K1, K2, K3.
 
@@ -74,7 +74,7 @@ That's *Onion Routing in 90's.*
 
 Integrity checking node by node or end-to-end.
 
-###So
+### So
 
 Alice first makes a TLS link to R1. R1 say already has a TLS link to R2.
 
@@ -92,7 +92,7 @@ Now Alice is told about it.
 
 R2 then does connect to Bob.
 
-###Protocols
+### Protocols
 
 Can we do it in IP? Need an IP nomalization layer. Anything less than a full IP doesn't work.
 
